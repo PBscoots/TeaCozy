@@ -6,7 +6,6 @@ Developer: Andrew Vanderpool
 /****Styling global****/
 body {
   overflow: scroll;
-  margin: 0px;
   background-color: black;
   font: 22px Helvetica;
   color: seashell;
@@ -53,27 +52,33 @@ nav a:hover {
 
 /****Styling of content****/
 .content {
-
-  flex-direction: column;
+  width: 1200px;
+  margin: 69px 40px 40px 40px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  width: auto;
-
-  margin-top: 44px;
-  justify-content: center;
 }
 
 .section {
-    width: 100%;
   display: flex;
+  margin: 20px 0px;
+}
+
+/**Styling of the mission section**/
+#mission {
   flex-direction: column;
-  margin: 25px 0px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/img-mission-background.jpg);
+  height: 700px;
 
 }
 
+
+
+/**Styling of the featured items section**/
 div.title {
   text-align: center;
-  width:auto;
 }
 
 div.specials {
@@ -89,32 +94,40 @@ div.item {
 .item img {
   height: 200px;
   width: 300px;
-  margin: 20px 15px 10px 15px;
+  padding: 10px;
 }
 
 .item h4 {
   width: 300px;
-  margin: 0px;
+  padding: 0px;
+}
+
+#featured {
+  flex-direction: column;
+  width: 1000px;
+}
+
+#featured h2, h4 {
   text-align: center;
 }
 
+/**Styling of the locations section**/
 .address {
   display: flex;
+  align-items: center;
 }
 
 .block {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 15px 20px;
+  margin: 20px;
+  height: 300px;
   width: 300px;
   text-align: center;
   background-color: black;
-  opacity: 1;
 }
 
-.block h3 {
-  margin: 15px 0px;
+#locations {
+  background-image: url(./images/img-locations-background.jpg);
+  height: 500px;
 }
 
 /****Styling of footer****/
@@ -132,38 +145,7 @@ div.copyright {
   margin: 20px;
 }
 
-
-#featured {
-  width: 1000px;
-}
-
-#featured h2, #featured h4 {
-  margin: 15px;
-}
-
-#locations {
-  background-image: url(./images/img-locations-background.jpg);
-  height: 500px;
-  width: 1200px;
-  align-items: center;
-  justify-content: center;
-  padding: 35px 0px;
-}
-
-#locations h2 {
-  text-align: center;
-  margin: 0px;
-}
-
-#mission {
-  justify-content: center;
-  align-items: center;
-  background-image: url(./images/img-mission-background.jpg);
-  height: 700px;
-  width: 1200px;
-}
-
-#mission h2, #mission h4 {
+#mission h2,h4 {
   text-align: center;
   width: 1200px;
   margin: 0px;
