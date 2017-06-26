@@ -8,6 +8,8 @@ them I would greatly appreciate it.
 1. When shrinking the screen, the content continues to stay centered and cuts content on the left off.
 I can take centering off, to fix it, but then of course things are not centered.
 
+THESE NEXT THREE SEEM TO BE SOLVED MORE OR LESS BY USING PADDING-TOP:70px AFTER SEEING THE SOLUTION: 
+
 2. When using the links, it takes me to the content, but the fixed header cuts off some content
 and scrolling is required.
 
